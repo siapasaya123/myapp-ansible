@@ -2,8 +2,6 @@
 - hosts: webservers 
   become: True
   tasks:
-    - name: Deploy static website
-      copy:
-        src: index.html
-        dest: /var/www/html/
-...
+    - name: testing
+      debug:
+        msg: "hallo"
