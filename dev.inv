@@ -1,2 +1,5 @@
 [webservers]
 10.104.0.3 ansible_user=root
+
+[webservers:vars]
+ansible_password=vagrant
