@@ -6,4 +6,4 @@
       copy:
         src: simple-http
         dest: /var/www/html/
-      
+        mode: '0111'
