@@ -2,6 +2,8 @@
 - hosts: webservers 
   become: True
   tasks:
-    - name: testing
-      debug:
-        msg: "hallo"
+    - name: create file
+      copy:
+        src: index.html
+        dest: /var/www/html/
+      
