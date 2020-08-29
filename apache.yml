@@ -4,6 +4,6 @@
   tasks:
     - name: create file
       copy:
-        src: index.html
+        src: simple-http
         dest: /var/www/html/
       
