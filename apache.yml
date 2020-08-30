@@ -14,5 +14,5 @@
     - name: start service
       service:
         name: 'test-app'
-        state: start
+        state: started
     
