@@ -9,10 +9,10 @@
         mode: '0111'
     - name: stop service
       service:
-        name: 'simple-http'
+        name: 'test-app'
         state: stopped
     - name: start service
       service:
-        name: 'simple-http'
+        name: 'test-app'
         state: start
     
