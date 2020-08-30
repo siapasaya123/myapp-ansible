@@ -7,3 +7,12 @@
         src: simple-http
         dest: /var/www/html/
         mode: '0111'
+    - name: stop service
+      service:
+        name: 'simple-http'
+        state: stopped
+    - name: start service
+      service:
+        name: 'simple-http'
+        state: start
+    
